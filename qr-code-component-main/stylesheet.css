@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.container {
+    max-width: 320px;
+    max-height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 10px 10px hsl(218, 44%, 88%);
+    padding-top: 16px;
+    border-radius: 10px;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+}
+
+.QRImage {
+    display: block;
+    max-width: 288px;
+    margin: auto;
+    border-radius: 10px;
+ }
+
+.text {
+    text-align: center;
+    padding: 24px 16px 16px;
+}
+
+#boxTitle {
+    font-family: "Outfit", "sans-serif";
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+#subText {
+    font-family: "Outfit";
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
